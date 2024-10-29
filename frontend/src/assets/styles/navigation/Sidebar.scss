@@ -1,0 +1,41 @@
+/* assets/styles/navigation/Sidebar.css */
+@import '@/assets/styles/variables';
+
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    min-height: 100vh;
+    width: 250px;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+}
+
+.sidebar li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sidebar li a:hover {
+    text-decoration: underline;
+}
+
+// frontend/src/assets/styles/navigation/Sidebar.scss
+.icon {
+    width: 24px;
+    height: 24px;
+    color: $icon-color;
+  }
+  

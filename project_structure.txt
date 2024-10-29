@@ -1,0 +1,107 @@
+.
+├── README.md
+├── backend
+│   ├── README.md
+│   ├── Server.js
+│   ├── config
+│   ├── controllers
+│   ├── db.js
+│   ├── middleware
+│   │   ├── authMiddleware.js
+│   │   └── roleMiddleware.js
+│   ├── models
+│   │   ├── tournamentModel.js
+│   │   └── userModel.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── routes
+│   │   ├── auth.js
+│   │   ├── authRoutes.js
+│   │   └── tournaments.js
+│   └── tournaments_1.sql
+├── docs
+│   ├── README.md
+│   └── plan.txt
+├── frontend
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.tsx
+│   │   ├── assets
+│   │   │   ├── icons
+│   │   │   ├── images
+│   │   │   ├── react.svg
+│   │   │   └── styles
+│   │   │       ├── admin
+│   │   │       │   ├── SportSelection.css
+│   │   │       │   └── TournamentType.css
+│   │   │       ├── index.css
+│   │   │       ├── layouts
+│   │   │       │   └── TournamentLayout.css
+│   │   │       ├── navigation
+│   │   │       │   ├── Footer.css
+│   │   │       │   ├── Header.css
+│   │   │       │   └── Sidebar.css
+│   │   │       ├── profile
+│   │   │       └── tournament
+│   │   │           ├── TournamentDetails.css
+│   │   │           ├── TournamentFilters.css
+│   │   │           ├── TournamentGallery.css
+│   │   │           ├── TournamentHeader.css
+│   │   │           ├── TournamentResultsTable.css
+│   │   │           ├── TournamentSchedule.css
+│   │   │           └── TournamentStandings.css
+│   │   ├── components
+│   │   │   ├── admin
+│   │   │   ├── general
+│   │   │   ├── navigation
+│   │   │   │   ├── Footer.tsx
+│   │   │   │   ├── Header.tsx
+│   │   │   │   └── Sidebar.tsx
+│   │   │   ├── profile
+│   │   │   └── tournament
+│   │   │       ├── TournamentDetails.tsx
+│   │   │       ├── TournamentFilters.tsx
+│   │   │       ├── TournamentGallery.tsx
+│   │   │       ├── TournamentHeader.tsx
+│   │   │       ├── TournamentResultsTable.tsx
+│   │   │       ├── TournamentSchedule.tsx
+│   │   │       └── TournamentStandings.tsx
+│   │   ├── image.png
+│   │   ├── index.css
+│   │   ├── index.tsx
+│   │   ├── layouts
+│   │   │   └── TournamentLayout.tsx
+│   │   ├── main.tsx
+│   │   ├── pages
+│   │   │   ├── admin
+│   │   │   │   ├── CreateTournament.tsx
+│   │   │   │   ├── Dashboard.tsx
+│   │   │   │   ├── SportSelection.tsx
+│   │   │   │   ├── TournamentType.tsx
+│   │   │   │   └── Tournaments.tsx
+│   │   │   ├── public
+│   │   │   │   ├── Home.tsx
+│   │   │   │   ├── Login.tsx
+│   │   │   │   └── TournamentPage.tsx
+│   │   │   └── shared
+│   │   │       ├── Profile.tsx
+│   │   │       └── Settings.tsx
+│   │   ├── services
+│   │   ├── stru.md
+│   │   └── vite-env.d.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+├── package-lock.json
+├── package.json
+└── project_structure.txt
+
+32 directories, 73 files

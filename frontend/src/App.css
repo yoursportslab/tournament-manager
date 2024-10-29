@@ -1,0 +1,21 @@
+.sport-selection {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.sport-option {
+  padding: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.sport-option:hover {
+  background-color: #f0f0f0;
+}
+
+.sport-option.selected {
+  background-color: lightblue;
+}

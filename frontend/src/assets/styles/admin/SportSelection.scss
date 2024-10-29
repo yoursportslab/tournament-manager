@@ -1,0 +1,36 @@
+@import '@/assets/styles/variables';
+
+.sport-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .sport-option {
+    padding: 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sport-option:hover {
+    background-color: lightgray;
+  }
+  
+  .sport-option.selected {
+    background-color: lightblue;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

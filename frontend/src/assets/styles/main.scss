@@ -1,0 +1,22 @@
+@import '@/assets/styles/variables';
+// main.scss
+
+body {
+  background-color: $primary-color;
+  color: white;
+}
+
+// frontend/src/assets/styles/main.scss или Button.scss
+.button {
+    background-color: $primary-button-color; // Основной цвет
+    padding: 0.5em 1em;
+    border-radius: 8px;
+  }
+
+  // frontend/src/assets/styles/tournament/TournamentHeader.scss
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $primary-text-color;
+  }
+  
